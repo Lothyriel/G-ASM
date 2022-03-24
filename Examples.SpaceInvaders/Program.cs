@@ -1,5 +1,5 @@
-﻿using Domain.GameControls;
-using Domain.Game;
+﻿using Domain.Game;
+using Domain.GameControls;
 using Domain.GameEngine;
 using Domain.GameEngine.Objects;
 using Domain.GameEngine.Shapes;

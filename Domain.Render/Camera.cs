@@ -1,5 +1,4 @@
 ﻿using Domain.GameControls;
-using Object = Domain.GameEngine.Objects.Object;
 
 namespace Domain.Render
 {
