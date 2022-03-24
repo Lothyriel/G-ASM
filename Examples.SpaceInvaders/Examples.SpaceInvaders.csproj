@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain.Controls\Domain.Controls.csproj" />
+    <ProjectReference Include="..\Domain.Engine\Domain.Engine.csproj" />
+    <ProjectReference Include="..\Domain.Game\Domain.Game.csproj" />
+    <ProjectReference Include="..\Domain.Render\Domain.Render.csproj" />
+    <ProjectReference Include="..\Infra.Loaders\Infra.Loaders.csproj" />
+    <ProjectReference Include="..\Renders.Console\Renders.Console.csproj" />
+  </ItemGroup>
+
+</Project>
