@@ -2,7 +2,7 @@
 
 namespace Domain.GameEngine.Objects
 {
-    public class MovingObject : Object, ITickable
+    public class MovingObject : Object
     {
         public MovingObject(int x, int y, Shape shape, int xSpeed = 0, int ySpeed = 0) : base(x, y, shape)
         {

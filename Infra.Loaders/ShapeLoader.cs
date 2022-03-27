@@ -6,7 +6,7 @@ namespace Infra.Loaders
 {
     public class ShapeLoader : Loader
     {
-        public static ShapeLoader I = new();
+        public static ShapeLoader I { get; } = new();
 
         public override string DirectoryName => "Shapes";
 
